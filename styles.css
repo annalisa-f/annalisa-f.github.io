@@ -13,7 +13,7 @@ body {
 p {
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1.1em;
 }
 
 b {
@@ -127,19 +127,19 @@ h4 {
 
 #infopara {
     width: 70%;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     padding-bottom: 50px;
     padding-top: 40px;
 }
 
-#links {
-    background-color: #e1c068;
+#orgstuff {
+    background-color: white;
     min-height: 400px;
     padding-top: 20px;
 }
 
-#linkspara {
+#orgbox {
     width: 70%;
     max-width: 800px;
     margin: auto;
@@ -155,13 +155,6 @@ h4 {
     background-color: #4D7332;
 }
 
-#socials {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 20%;
-    margin-left: 40%;
-    margin-top: 20px;
-}
 
 .Sicons img{
     max-width: 25px;
