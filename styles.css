@@ -45,9 +45,26 @@ h2 {
 }
 
 h4 {
-    font-size: 25px;
-    text-align: left;
+    font-size: 1.4em;
+    text-align: center;
     font-family: 'Hammersmith One', sans-serif;
+}
+
+h5 {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+hr {
+  border: 2px solid #4D7332;
+}
+
+ul {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.1em;
 }
 
 #header {
@@ -130,7 +147,6 @@ h4 {
     max-width: 900px;
     margin: auto;
     padding-bottom: 50px;
-    padding-top: 40px;
 }
 
 #orgstuff {
@@ -141,11 +157,19 @@ h4 {
 
 #orgbox {
     width: 70%;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     padding-bottom: 50px;
-    padding-top: 40px;
     text-align: center;
+}
+
+#mains {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aorm {
+
 }
 
 #footer {
