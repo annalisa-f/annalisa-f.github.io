@@ -21,7 +21,7 @@ b {
 }
 
 a {
-    color: #ba1226;
+    color: black;
     text-decoration: none;
 }
 
@@ -39,8 +39,8 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
-    text-align: left;
+    font-size: 2em;
+    text-align: center;
     font-family: 'Hammersmith One', sans-serif;
 }
 
@@ -68,14 +68,9 @@ h4 {
 
 #nav {
     text-align: right;
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 35px;
     font-family: 'Hammersmith One', sans-serif;
-}
-
-
-#banner {
-
 }
 
 #about {
@@ -99,66 +94,30 @@ h4 {
   width: 90%;
 }
 
-#videos {
+#roles {
     padding-top: 20px;
 }
 
-.epcols {
+.rolecols {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 30px;
     padding-left: 10%;
 }
 
-.episode {
+.position {
     width: 70%;
 }
 
-.episode img {
-    width: 100%;
+.position img {
+    width: 60%;
     margin-bottom: 10px;
+    margin-left: 20%;
 }
 
-.episode p {
-    font-size: 11px;
+.position p {
+    font-size: 1em;
     margin-bottom: 20px;
-}
-
-#contact {
-    padding-top: 20px;
-    min-height: 625px;
-}
-
-#contactgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
-    margin-left: 10%;
-    padding-top: 40px;
-}
-
-#contactinfo {
-    background-color: #e1c068;
-    min-height: 450px;
-    padding: 50px 50px;
-}
-
-#contactimg img {
-    max-width: 90%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-#Csocials {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-    margin-left: 15%;
-    margin-top: 40px;
-}
-
-.Cicons img{
-    max-width: 100%;
 }
 
 #moreinfo {
